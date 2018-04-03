@@ -1,0 +1,75 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name: MyText
+  last_name: MyText
+  first_name: MyText
+  middle_name: MyText
+  party: MyText
+  current_occupation: MyText
+  current_occupation: MyText
+  full_address: MyText
+  full_address: MyText
+  full_address: MyText
+  address_2: MyText
+  address_2_cleaned: MyText
+  city: MyText
+  county: MyText
+  state: MyText
+  zip: 
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  source_table_id: 1
+  source_table_id: 1
+  source_table_id: MyText
+  source_table_id: 1
+  source_table_id: MyText
+  source_table_id: 1
+  source_table_id: 1
+  source_table_id: 1
+  old_pl_staging_loki_status: MyText
+  old_pl_staging_loki_status: 1
+  old_pl_staging_loki_status: 1
+  old_pl_staging_loki_status: MyText
+  old_pl_staging_loki_status: 1
+
+two:
+  full_name: MyText
+  last_name: MyText
+  first_name: MyText
+  middle_name: MyText
+  party: MyText
+  current_occupation: MyText
+  current_occupation: MyText
+  full_address: MyText
+  full_address: MyText
+  full_address: MyText
+  address_2: MyText
+  address_2_cleaned: MyText
+  city: MyText
+  county: MyText
+  state: MyText
+  zip: 
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  zip: MyText
+  source_table_id: 1
+  source_table_id: 1
+  source_table_id: MyText
+  source_table_id: 1
+  source_table_id: MyText
+  source_table_id: 1
+  source_table_id: 1
+  source_table_id: 1
+  old_pl_staging_loki_status: MyText
+  old_pl_staging_loki_status: 1
+  old_pl_staging_loki_status: 1
+  old_pl_staging_loki_status: MyText
+  old_pl_staging_loki_status: 1
