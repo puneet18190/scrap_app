@@ -98,7 +98,7 @@ ActiveRecord::Schema.define(version: 20180331064735) do
   end
 
   create_table "california_counties_campaign_finance_contributions", force: :cascade do |t|
-    t.string   "date",                          limit: 255
+    t.date     "date"
     t.integer  "committee_id",                  limit: 8
     t.integer  "contributor_id",                limit: 8
     t.string   "county",                        limit: 255

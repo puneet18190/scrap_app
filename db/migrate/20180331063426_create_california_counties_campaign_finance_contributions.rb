@@ -1,7 +1,7 @@
 class CreateCaliforniaCountiesCampaignFinanceContributions < ActiveRecord::Migration
   def change
     create_table :california_counties_campaign_finance_contributions do |t|
-    	t.string :date, limit:255
+    	t.date :date#, limit:255
 		t.bigint :committee_id, limit:20
 		t.bigint :contributor_id, limit:20
 		t.string :county, limit:255
