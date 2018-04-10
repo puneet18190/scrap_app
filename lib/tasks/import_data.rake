@@ -1,12 +1,14 @@
 task :import_data => :environment do
-# require 'pry'
+require 'pry'
 require 'csv'
-csv_text = File.read('/home/puneet/Desktop/scrap_upwork/data.csv')
+csv_text = File.read('/vagrant/test1/blog1/public/data.csv')
 csv = CSV.parse(csv_text, :headers => true)
 arr=[]
 csv.each_with_index do |row,i|
 	puts i
   date = row[0]
+  z=date.split("/")
+  date = "#{z[0]}/#{z[1]}/20#{z[2]}"
   contributor = row[1]
   contributor_detail = row[2]
   candidate_name = row[3]
@@ -56,7 +58,7 @@ csv.each_with_index do |row,i|
 	d.source_agency_org = 'Los Angeles County Recorder'
 	d.source_agency_id = '645301679'
 	d.county = 'Los Angeles'
-	d.date = date
+	d.date = Date.strptime(date, "%m/%d/%Y")
 	d.amount = amount.to_f
 	d.committee_id = b.id 
 	d.contributor_id = c.id
